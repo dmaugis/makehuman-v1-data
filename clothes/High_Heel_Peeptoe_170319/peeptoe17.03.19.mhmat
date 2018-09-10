@@ -1,0 +1,41 @@
+# Material definition for peeptoe17.03.19Material
+
+name peeptoe17.03.19
+description Peeptoe17.03.19 material
+ambientColor 0.1 0.1 0.1
+diffuseColor 1.0 1.0 1.0
+specularColor 0.5 0.5 0.5
+shininess 0.1961
+emissiveColor 0.0 0.0 0.0
+opacity 1.0
+translucency 0.0
+
+shadeless False
+wireframe False
+transparent False
+alphaToCoverage True
+backfaceCull True
+depthless False
+
+castShadows True
+
+receiveShadows True
+
+diffuseTexture Peeptoe_17.03.19_d.png
+bumpmapTexture Peeptoe_17.03.19_bump1.png
+bumpmapIntensity 1.0
+normalmapTexture Peeptoe_17.03.19_n.2.png
+normalmapIntensity 1.0
+specularmapTexture Peeptoe_17.03.19_rough.png
+specularmapIntensity 1.0
+
+shader shaders/glsl/phong
+
+shaderConfig ambientOcclusion False
+shaderConfig normal True
+shaderConfig bump True
+shaderConfig displacement False
+shaderConfig vertexColors False
+shaderConfig spec True
+shaderConfig transparency False
+shaderConfig diffuse True
